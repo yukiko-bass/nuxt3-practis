@@ -10,6 +10,8 @@
     </ul>
   </nav>
   <section>
-    <p>会員登録はこちら</p>
+    <NuxtLink v-bind:to="{ name: 'member-memberList' }">
+      会員登録はこちら
+    </NuxtLink>
   </section>
 </template>
